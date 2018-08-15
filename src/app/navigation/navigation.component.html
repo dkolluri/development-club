@@ -1,0 +1,5 @@
+<nav>
+	<ul>
+	<li *ngFor="let item of navItems" [ngClass] ="item.name" routerLink="{{item.routeUrl}}">{{item.name}}</li>
+    </ul>
+</nav>

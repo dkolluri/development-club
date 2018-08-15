@@ -1,0 +1,14 @@
+<div class="revise-section">
+<div class="listed-revisions">
+	<ul>
+		<li *ngFor="let item of revisions" >
+		  <app-session-list [reviseItem]='item' (click) = "itemSelected = item; $event.preventDefault()"></app-session-list>
+		</li>
+	</ul>
+</div>
+<div class="notes">
+<app-details *ngIf = "itemSelected else alternateText" [notes]="itemSelected"></app-details>
+<ng-template #alternateText>
+</ng-template>
+</div>
+</div>

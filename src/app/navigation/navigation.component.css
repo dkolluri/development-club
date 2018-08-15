@@ -1,0 +1,15 @@
+ul li {
+display: inline-block;
+padding-right: 130px;
+font-size:48px;
+cursor: pointer;
+text-decoration: underline;
+}
+
+ul li:first-child {
+padding-right: 217px;
+}
+
+ul li:last-child {
+	padding-right: 0px;
+}

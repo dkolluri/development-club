@@ -1,0 +1,22 @@
+
+h4 {
+	font-size:28px;
+}
+.ideas {
+	margin:20px;
+}
+textarea {
+	border-color: powderblue;
+    font-size: 30px;
+    border-width: 2px;
+}
+label {
+	font-size: 30px;
+}
+input[type='submit'] {
+	font-size: 22px;
+}
+input:not([type='submit']) {
+	font-size: 30px;
+    padding-right: 80px;
+}

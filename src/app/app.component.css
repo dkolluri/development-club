@@ -1,0 +1,9 @@
+.theme-img {
+	height: 800px;
+
+	background-image: url("theme.jpg");
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.55
+}

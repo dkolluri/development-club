@@ -1,0 +1,10 @@
+.meet-us {
+background-image: url('../Meeting.jpg');
+height:460px;
+background-repeat: no-repeat;
+background-position: center;
+}
+p {
+	font-size: 30px;
+	text-align: center;
+}
